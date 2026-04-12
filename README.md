@@ -4,14 +4,5 @@
   </a>
 </p>
 
-### Hi there, I'm Yang 👋 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJzbTRwbmR2Z3B4aGV5bWFwMmE2d212bnJ5M3R4YndwcGtjbWhxNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WUlplcMpOCEmTGBtBW/giphy.gif" width="50px">
-- 🔭 My interest are **OS** and **Network**,I'm also interested in **Security**, but just a green hand.
-- 🌱 I’m currently working on **backend deveploping**.
-- 💬 Feel free to contact with me, I love making new friends!
-
----
-
-### Contribute To
-
 ![Valkey](https://img.shields.io/badge/Valkey-Contributor-003545?style=for-the-badge&logo=redis&logoColor=white)
 ![ShardingSphere](https://img.shields.io/badge/Apache_ShardingSphere-Contributor-E16223?style=for-the-badge&logo=apache&logoColor=white)
