@@ -16,7 +16,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh search prs --author quanyeyang --merged --limit 5 \
+          gh search prs --author quanyeyang --merged --limit 10 \
             --json title,url,repository \
             --jq '.[] | "- [\(.title)](\(.url)) in **\(.repository.nameWithOwner)**"' > prs.txt
           
