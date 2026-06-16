@@ -4,6 +4,16 @@
   </a>
 </p>
 
+> **Status**  : CS Undergrad.
+> 
+> **Focus**   : Infrastructure, Distributed Protocols, Redis/Valkey internals.
+> 
+> **Spoken**  : Fluent in English & Japanese.
+> 
+> **Ethos**   : Play the long game. Do the hard, right things.
+> 
+> **Contact** : Always open to technical communication.
+
 ### Recent PRs
 
 <!-- BEGIN_RECENT_PRS -->
