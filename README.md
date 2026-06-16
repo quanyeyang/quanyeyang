@@ -7,6 +7,7 @@
 ### Recent PRs
 
 <!-- BEGIN_RECENT_PRS -->
+- [Raft Cluster: Implement Pre-Vote protocol to prevent term inflation](https://github.com/valkey-io/valkey/pull/3931) in **valkey-io/valkey**
 - [add/CVE-2026-25243 Invalid Memory Access in Redis RESTORE Command May Lead to Remote Code Execution](https://github.com/Unclecheng-li/poc-lab/pull/6) in **Unclecheng-li/poc-lab**
 - [add/CVE-2026-27623-valkey-dos](https://github.com/Unclecheng-li/poc-lab/pull/4) in **Unclecheng-li/poc-lab**
 - [valkey-benchmark: centralize RDMA WRITABLE kick via createFileEvent](https://github.com/valkey-io/valkey/pull/3492) in **valkey-io/valkey**
