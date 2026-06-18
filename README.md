@@ -29,4 +29,5 @@
 <!-- END_RECENT_PRS -->
 
 ![Valkey](https://img.shields.io/badge/Valkey-Contributor-003545?style=for-the-badge&logo=redis&logoColor=white)
+![LLVM](https://img.shields.io/badge/LLVM-Contributor-000000?style=for-the-badge&logo=llvm&logoColor=white)
 ![ShardingSphere](https://img.shields.io/badge/Apache_ShardingSphere-Contributor-E16223?style=for-the-badge&logo=apache&logoColor=white)
