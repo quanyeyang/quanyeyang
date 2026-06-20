@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/denvercoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans+JP&pause=1000&color=4285F4&width=500&lines=My+Heart+Is+In+The+Work!;我心尽在此作!;我が心は仕事にあり!;Mon+cœur+est+dans+le+travail!" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&pause=1000&color=000000&width=500&lines=My+Heart+Is+In+The+Work!" alt="Typing SVG" />
   </a>
 </p>
 
