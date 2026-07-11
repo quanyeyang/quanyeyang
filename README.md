@@ -14,7 +14,7 @@
 > 
 > **Contact** : Always open to technical communication.
 
-### Recent PRs
+### Recent Merged PRs
 
 <!-- BEGIN_RECENT_PRS -->
 - [[llvm-exegesis] Add did-you-mean hint for unknown opcodes](https://github.com/llvm/llvm-project/pull/203463) in **llvm/llvm-project**
