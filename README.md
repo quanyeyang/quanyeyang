@@ -17,6 +17,7 @@
 ### Recent Merged PRs
 
 <!-- BEGIN_RECENT_PRS -->
+- [Check and reject invalid slot import job names](https://github.com/valkey-io/valkey/pull/4210) in **valkey-io/valkey**
 - [[llvm-exegesis] Add did-you-mean hint for unknown opcodes](https://github.com/llvm/llvm-project/pull/203463) in **llvm/llvm-project**
 - [Raft Cluster: Implement Pre-Vote protocol to prevent term inflation](https://github.com/valkey-io/valkey/pull/3931) in **valkey-io/valkey**
 - [add/CVE-2026-25243 Invalid Memory Access in Redis RESTORE Command May Lead to Remote Code Execution](https://github.com/Unclecheng-li/poc-lab/pull/6) in **Unclecheng-li/poc-lab**
