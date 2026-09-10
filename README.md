@@ -5,6 +5,10 @@ I'm a Computer Science undergraduate at **Xi'an Jiaotong University**, a member 
 
 I work on **RDMA networking, database internals, and distributed protocols**, with a particular interest in concurrency, resource lifetimes, and the behavior of systems under failure.
 
+**I speak Chinese, English, Japanese and a little German, and enjoy learning languages.**
+
+*Play the long game. Do the hard, right things.*
+
 [Website](https://quanyeyang.github.io/) · [LinkedIn](https://www.linkedin.com/in/quanyeyang/) · [Email](mailto:quanyeyang@proton.me)
 
 ## Valkey & libvalkey
@@ -89,9 +93,6 @@ Also contributed a proposal and follow-up discussion on userspace MPTCP path-man
 
 ---
 
-**I speak Chinese, English, Japanese and a little German, and enjoy learning languages.**
-
-*Play the long game. Do the hard, right things.*
 
 
 ![Valkey](https://img.shields.io/badge/Valkey-Contributor-003545?style=for-the-badge&logo=redis&logoColor=white)
