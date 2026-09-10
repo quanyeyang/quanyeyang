@@ -52,6 +52,7 @@ Also contributed a proposal and follow-up discussion on userspace MPTCP path-man
 <summary><strong>Recent merged pull requests</strong> · updated daily</summary>
 
 <!-- BEGIN_RECENT_PRS -->
+- 2026-09-10 · [sd-ndisc: do not stop solicitations on zero-lifetime RA](https://github.com/systemd/systemd/pull/43698) in **systemd/systemd**
 - 2026-09-01 · [tests/rdma: improve diagnostics for sporadic connection failures](https://github.com/valkey-io/valkey/pull/4586) in **valkey-io/valkey**
 - 2026-08-31 · [Fix RDMA UAF: connection freed inside callHandler](https://github.com/valkey-io/valkey/pull/4534) in **valkey-io/valkey**
 - 2026-08-26 · [repart: Keep new partitions after existing same-type partitions](https://github.com/systemd/systemd/pull/43470) in **systemd/systemd**
