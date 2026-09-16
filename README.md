@@ -29,14 +29,7 @@ Recent work on concurrency, resource lifetime management, and network protocol i
 
 <!-- Kernel status snapshot: 2026-09-05. Update from maintainer replies and commits. -->
 
-| Area | Contribution | Status / reference |
-| --- | --- | --- |
-| **RDMA / RTRS** | Fixed a connection setup/teardown race that leaked shared completion-queue credits when a connection attempt was interrupted. | [Applied to the RDMA tree](https://git.kernel.org/rdma/rdma/c/2ae16aaa78b5ed) |
-| **BPF** | Annotated intentional concurrent copies in `bpf_obj_memcpy()`, documenting existing lockless map-update semantics and addressing a syzbot KCSAN report. | [Applied to bpf-next](https://git.kernel.org/bpf/bpf-next/c/5e289c5a4a52) |
-| **rhashtable / lockdep** | Investigated a tracepoint-BPF locking report, proposed an initial fix, and tested NeilBrown's revised lockdep-class implementation. | [Tested-by](https://lore.kernel.org/all/178677504716.2852630.10509837046652973246@noble.neil.brown.name/) · [Maintainer applied](https://lore.kernel.org/all/apqW9KXs0JywvG2L@gondor.apana.org.au/) |
-| **RDMA / UCMA** | Proposed serializing multicast join and error-path leave to prevent a use-after-free; validated with KASAN and RXE. | [Applied to the RDMA tree](https://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git/commit/?id=662ade4de9ff5eceb0820a9f8e9fac70ba6a815b) |
-
-Also contributed a proposal and follow-up discussion on userspace MPTCP path-manager subflow limits.
+Linux kernel newbee, still learing :>
 
 [Mailing-list patches and discussions](https://lore.kernel.org/all/?q=f%3Aquanyeyang+OR+f%3A%22Quanye+Yang%22)
 
