@@ -33,18 +33,6 @@ Linux kernel newbee, still learing :>
 
 [Mailing-list patches and discussions](https://lore.kernel.org/all/?q=f%3Aquanyeyang+OR+f%3A%22Quanye+Yang%22)
 
-## Other upstream contributions
-
-- **[systemd](https://github.com/systemd/systemd/pull/43470):** fixed partition ordering in `systemd-repart` to preserve stable matching across repeated runs.
-- **[LLVM](https://github.com/llvm/llvm-project/pull/203463):** added nearest-opcode suggestions to `llvm-exegesis` diagnostics.
-- **[Apache ShardingSphere](https://github.com/apache/shardingsphere/pull/37391):** corrected MySQL proxy routing for multi-expression queries without a `FROM` clause.
-
-## Projects & notes
-
-- **[PacketGhost](https://github.com/quanyeyang/PacketGhost):** a userspace packet-mutation engine in C, using Netfilter and raw sockets to study TCP behavior and DPI evasion.
-- **[6.5840 Labs](https://github.com/quanyeyang/6.5840-Labs):** Go implementations of MapReduce, Raft, and key-value services, with study notes.
-- **[Systems notes](https://github.com/quanyeyang/pwd-writeup):** experiments and write-ups on DPDK, performance analysis, eBPF/XDP, and binary exploitation.
-
 <details>
 <summary><strong>Recent merged pull requests</strong> · updated daily</summary>
 
