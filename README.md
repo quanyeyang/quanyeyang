@@ -7,7 +7,7 @@ I work on **RDMA networking, database internals, and distributed protocols**, wi
 
 **I speak Chinese, English, Japanese and a little German, and enjoy learning languages.**
 
-*Play the long game. Do the hard, right things.*
+*Kiss, Do one thing well.*
 
 [Website](https://quanyeyang.github.io/) · [LinkedIn](https://www.linkedin.com/in/quanyeyang/) · [Email](mailto:quanyeyang@proton.me)
 
