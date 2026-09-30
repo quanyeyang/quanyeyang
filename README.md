@@ -29,7 +29,7 @@ Recent work on concurrency, resource lifetime management, and network protocol i
 
 <!-- Kernel status snapshot: 2026-09-05. Update from maintainer replies and commits. -->
 
-Linux kernel newbee, still learing :>
+Linux kernel newbie, still learing :>
 
 [Mailing-list patches and discussions](https://lore.kernel.org/all/?q=f%3Aquanyeyang+OR+f%3A%22Quanye+Yang%22)
 
