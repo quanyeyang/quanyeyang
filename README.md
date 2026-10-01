@@ -33,7 +33,7 @@ I contribute primarily to **RDMA, kernel networking, BPF, and concurrency correc
 | RDMA / RTRS | Fixed a shared-CQ credit leak during interrupted connections, and hardened the client against malformed peer-controlled queue depths, completion opcodes, and I/O message IDs. | **Linux mainline** · additional fixes in `rdma/for-next` |
 | BPF / concurrency | Annotated intentional concurrent map-value copies in `bpf_obj_memcpy()` to match the existing lockless semantics and avoid false-positive KCSAN reports. | **`bpf-next`** |
 | MPTCP | Reworked incoming-option storage, including separating the FASTCLOSE key and overlapping mutually exclusive option payloads, reducing `struct mptcp_options_received` from **136 to 72 bytes** on x86-64. | MPTCP maintainer → **`net-next`** |
-| TCP / MPTCP concurrency | Reworked lockless `sk_err` access and no-data error handling across TCP/MPTCP send, receive, splice, and subflow paths following a KCSAN report. | **`net-next` v5** |
+| TCP / MPTCP concurrency | Reworked lockless `sk_err` access and no-data error handling across TCP/MPTCP send, receive, splice, and subflow paths following a KCSAN report. | **Linux mainline** |
 
 I also participate in upstream debugging and review discussions around locking, lifetime management, and syzkaller reports.
 
