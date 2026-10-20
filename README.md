@@ -43,6 +43,7 @@ I also participate in upstream debugging and review discussions around locking, 
 <summary><strong>Recent merged pull requests</strong> · updated daily</summary>
 
 <!-- BEGIN_RECENT_PRS -->
+- 2026-10-19 · [Restore hex float parsing for sorted set scores](https://github.com/valkey-io/valkey/pull/4875) in **valkey-io/valkey**
 - 2026-10-11 · [Skip raw TSC when the kernel clocksource is not tsc](https://github.com/valkey-io/valkey/pull/4707) in **valkey-io/valkey**
 - 2026-10-06 · [mptcp: add regression test for leftover fallback after failed connect](https://github.com/multipath-tcp/packetdrill/pull/206) in **multipath-tcp/packetdrill**
 - 2026-09-25 · [Report pending SO\_ERROR when non-blocking recv returns EAGAIN](https://github.com/valkey-io/libvalkey/pull/360) in **valkey-io/libvalkey**
@@ -72,7 +73,6 @@ I also participate in upstream debugging and review discussions around locking, 
 - 2026-05-22 · [add/CVE-2026-27623-valkey-dos](https://github.com/Unclecheng-li/poc-lab/pull/4) in **Unclecheng-li/poc-lab**
 - 2026-05-06 · [Fixes server crash when RDMA benchmark clients disconnect](https://github.com/valkey-io/valkey/pull/3448) in **valkey-io/valkey**
 - 2026-05-06 · [valkey-benchmark: centralize RDMA WRITABLE kick via createFileEvent](https://github.com/valkey-io/valkey/pull/3492) in **valkey-io/valkey**
-- 2026-02-26 · [Lazy loading of RDMA libs in CLI/Benchmark when building as module](https://github.com/valkey-io/valkey/pull/3072) in **valkey-io/valkey**
 <!-- END_RECENT_PRS -->
 
 [Browse all merged pull requests](https://github.com/search?q=author%3Aquanyeyang+is%3Apr+is%3Amerged+-user%3Aquanyeyang&type=pullrequests)
