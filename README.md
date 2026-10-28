@@ -43,6 +43,7 @@ I also participate in upstream debugging and review discussions around locking, 
 <summary><strong>Recent merged pull requests</strong> · updated daily</summary>
 
 <!-- BEGIN_RECENT_PRS -->
+- 2026-10-27 · [Fix module blocking of RESP3 Pub/Sub clients](https://github.com/valkey-io/valkey/pull/4863) in **valkey-io/valkey**
 - 2026-10-22 · [packetdrill: allow NULL iovec and add mptcp sendmsg copy-fault test](https://github.com/multipath-tcp/packetdrill/pull/211) in **multipath-tcp/packetdrill**
 - 2026-10-19 · [Restore hex float parsing for sorted set scores](https://github.com/valkey-io/valkey/pull/4875) in **valkey-io/valkey**
 - 2026-10-11 · [Skip raw TSC when the kernel clocksource is not tsc](https://github.com/valkey-io/valkey/pull/4707) in **valkey-io/valkey**
@@ -72,7 +73,6 @@ I also participate in upstream debugging and review discussions around locking, 
 - 2026-06-15 · [Raft Cluster: Implement Pre-Vote protocol to prevent term inflation](https://github.com/valkey-io/valkey/pull/3931) in **valkey-io/valkey**
 - 2026-05-27 · [add/CVE-2026-25243 Invalid Memory Access in Redis RESTORE Command May Lead to Remote Code Execution](https://github.com/Unclecheng-li/poc-lab/pull/6) in **Unclecheng-li/poc-lab**
 - 2026-05-22 · [add/CVE-2026-27623-valkey-dos](https://github.com/Unclecheng-li/poc-lab/pull/4) in **Unclecheng-li/poc-lab**
-- 2026-05-06 · [Fixes server crash when RDMA benchmark clients disconnect](https://github.com/valkey-io/valkey/pull/3448) in **valkey-io/valkey**
 <!-- END_RECENT_PRS -->
 
 [Browse all merged pull requests](https://github.com/search?q=author%3Aquanyeyang+is%3Apr+is%3Amerged+-user%3Aquanyeyang&type=pullrequests)
