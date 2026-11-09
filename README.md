@@ -1,9 +1,7 @@
 <h1 align="center">Quanye Yang</h1>
 <p align="center"><em>My Heart Is in the Work.</em></p>
 
-I'm a Computer Science undergraduate at **Xi'an Jiaotong University**, a member of **[valkey-io](https://github.com/valkey-io)**, and a **Linux kernel contributor**.
-
-I work on **RDMA networking, database internals, and distributed protocols**, with a particular interest in concurrency, resource lifetimes, and the behavior of systems under failure.
+I'm a member of **[valkey-io](https://github.com/valkey-io)**, and a **Linux kernel contributor**.
 
 **I speak Chinese, English, Japanese and a little German, and enjoy learning languages.**
 
@@ -11,32 +9,7 @@ I work on **RDMA networking, database internals, and distributed protocols**, wi
 
 [Website](https://quanyeyang.github.io/) · [LinkedIn](https://www.linkedin.com/in/quanyeyang/) · [Email](mailto:quanyeyang@proton.me)
 
-## Valkey & libvalkey
-
-My contributions cover transport correctness, Raft cluster protocols, runtime integration, and regression testing.
-
-| Area | Selected contributions | Merged work |
-| --- | --- | --- |
-| RDMA transport | Fixed re-entrant callbacks and busy loops with IO threads, and use-after-free during concurrent client disconnects. | [IO-thread integration](https://github.com/valkey-io/valkey/pull/3611) · [Disconnect handling](https://github.com/valkey-io/valkey/pull/4534) |
-| Raft cluster | Implemented pre-vote to prevent disruptive term inflation, and non-voting members with explicit promotion and demotion. | [Pre-vote](https://github.com/valkey-io/valkey/pull/3931) · [Non-voting members](https://github.com/valkey-io/valkey/pull/4094) |
-| RDMA integration | Added runtime loading of RDMA libraries so CLI and benchmark tools can run without RDMA dependencies when using other transports. | [libvalkey](https://github.com/valkey-io/libvalkey/pull/284) · [CLI / benchmark](https://github.com/valkey-io/valkey/pull/3072) |
-| Core correctness | Fixed blocked-client use-after-free and invalid TSC calibration that could freeze the monotonic clock. | [Client lifetime](https://github.com/valkey-io/valkey/pull/4212) · [Clock calibration](https://github.com/valkey-io/valkey/pull/4346) |
-| Testing & diagnostics | Added RDMA benchmark stress coverage and improved diagnostics for intermittent RDMA CI failures. | [Stress tests](https://github.com/valkey-io/valkey/pull/4025) · [CI diagnostics](https://github.com/valkey-io/valkey/pull/4586) |
-
-## Linux kernel
-
-I contribute primarily to **RDMA, kernel networking, BPF, and concurrency correctness**, often working from syzkaller/KCSAN reports through root-cause analysis, reproducer validation, and upstream review.
-
-| Area | Selected contributions | Upstream status |
-| --- | --- | --- |
-| RDMA / uCMA | Fixed a multicast join/leave race on `copy_to_user()` failure that could lead to a use-after-free. | **Linux mainline** |
-| RDMA / RTRS | Fixed a shared-CQ credit leak during interrupted connections, and hardened the client against malformed peer-controlled queue depths, completion opcodes, and I/O message IDs. | **Linux mainline** |
-| BPF / concurrency | Annotated intentional concurrent map-value copies in `bpf_obj_memcpy()` to match the existing lockless semantics and avoid false-positive KCSAN reports. | **`bpf-next`** |
-| MPTCP | Reworked incoming-option storage, including separating the FASTCLOSE key and overlapping mutually exclusive option payloads, reducing `struct mptcp_options_received` from **136 to 72 bytes** on x86-64. | **`net-next`** |
-| TCP / MPTCP concurrency | Reworked lockless `sk_err` access and no-data error handling across TCP/MPTCP send, receive, splice, and subflow paths following a KCSAN report. | **Linux mainline** |
-
-I also participate in upstream debugging and review discussions around locking, lifetime management, and syzkaller reports.
-
+I love Linux kernel, but just a newbie ;)
 [Mailing-list patches and discussions](https://lore.kernel.org/all/?q=f%3Aquanyeyang+OR+f%3A%22Quanye+Yang%22)
 
 <details>
