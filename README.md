@@ -10,6 +10,7 @@ I'm a member of **[valkey-io](https://github.com/valkey-io)**, and a **Linux ker
 [Website](https://quanyeyang.github.io/) · [LinkedIn](https://www.linkedin.com/in/quanyeyang/) · [Email](mailto:quanyeyang@proton.me)
 
 I love Linux kernel, but just a newbie ;)
+
 [Mailing-list patches and discussions](https://lore.kernel.org/all/?q=f%3Aquanyeyang+OR+f%3A%22Quanye+Yang%22)
 
 <details>
