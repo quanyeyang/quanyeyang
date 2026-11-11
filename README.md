@@ -1,4 +1,4 @@
-<p align="center"><em>My Heart Is in the Work.</em></p>
+<h2 align="center"><em>My Heart Is in the Work.</em></h2>
 
 I'm a member of **[valkey-io](https://github.com/valkey-io)**, and a Linux kernel contributor.
 
