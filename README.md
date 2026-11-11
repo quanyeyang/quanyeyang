@@ -1,4 +1,3 @@
-<h1 align="center">Quanye Yang</h1>
 <p align="center"><em>My Heart Is in the Work.</em></p>
 
 I'm a member of **[valkey-io](https://github.com/valkey-io)**, and a Linux kernel contributor.
