@@ -14,6 +14,7 @@ I love Linux kernel, but just a newbie ;)
 <summary><strong>Recent merged pull requests</strong> · updated daily</summary>
 
 <!-- BEGIN_RECENT_PRS -->
+- 2026-11-13 · [Raft: don't acknowledge a log append before it is durable](https://github.com/valkey-io/valkey/pull/5383) in **valkey-io/valkey**
 - 2026-11-04 · [valkey-cli: avoid MULTI/EXEC for cluster fix on Raft clusters](https://github.com/valkey-io/valkey/pull/3924) in **valkey-io/valkey**
 - 2026-10-27 · [Fix module blocking of RESP3 Pub/Sub clients](https://github.com/valkey-io/valkey/pull/4863) in **valkey-io/valkey**
 - 2026-10-22 · [packetdrill: allow NULL iovec and add mptcp sendmsg copy-fault test](https://github.com/multipath-tcp/packetdrill/pull/211) in **multipath-tcp/packetdrill**
@@ -43,7 +44,6 @@ I love Linux kernel, but just a newbie ;)
 - 2026-07-21 · [Check and reject invalid slot import job names](https://github.com/valkey-io/valkey/pull/4210) in **valkey-io/valkey**
 - 2026-06-17 · [\[llvm-exegesis\] Add did-you-mean hint for unknown opcodes](https://github.com/llvm/llvm-project/pull/203463) in **llvm/llvm-project**
 - 2026-06-15 · [Raft Cluster: Implement Pre-Vote protocol to prevent term inflation](https://github.com/valkey-io/valkey/pull/3931) in **valkey-io/valkey**
-- 2026-05-27 · [add/CVE-2026-25243 Invalid Memory Access in Redis RESTORE Command May Lead to Remote Code Execution](https://github.com/Unclecheng-li/poc-lab/pull/6) in **Unclecheng-li/poc-lab**
 <!-- END_RECENT_PRS -->
 
 [Browse all merged pull requests](https://github.com/search?q=author%3Aquanyeyang+is%3Apr+is%3Amerged+-user%3Aquanyeyang&type=pullrequests)
