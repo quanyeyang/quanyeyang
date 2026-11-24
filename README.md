@@ -14,6 +14,7 @@ I love Linux kernel, but just a newbie ;)
 <summary><strong>Recent merged pull requests</strong> · updated daily</summary>
 
 <!-- BEGIN_RECENT_PRS -->
+- 2026-11-24 · [Raft: reduce data loss risk during atomic slot migration](https://github.com/valkey-io/valkey/pull/5429) in **valkey-io/valkey**
 - 2026-11-23 · [Raft Cluster: keep replicating after a successful AE\_ACK](https://github.com/valkey-io/valkey/pull/5520) in **valkey-io/valkey**
 - 2026-11-17 · [Raft Cluster: leave the cluster when applying NODE\_FORGET for ourselves](https://github.com/valkey-io/valkey/pull/5414) in **valkey-io/valkey**
 - 2026-11-13 · [Raft: don't acknowledge a log append before it is durable](https://github.com/valkey-io/valkey/pull/5383) in **valkey-io/valkey**
@@ -43,7 +44,6 @@ I love Linux kernel, but just a newbie ;)
 - 2026-08-05 · [Fix RDMA + IO threads re-entrancy and busy-loop via connection postpone masks](https://github.com/valkey-io/valkey/pull/3611) in **valkey-io/valkey**
 - 2026-08-03 · [Fix RESP3 push frame torn apart on self-publish with copy avoidance](https://github.com/valkey-io/valkey/pull/4253) in **valkey-io/valkey**
 - 2026-08-03 · [Prevent double-free of the module timer when the callback stops it](https://github.com/valkey-io/valkey/pull/4211) in **valkey-io/valkey**
-- 2026-07-21 · [Check and reject invalid slot import job names](https://github.com/valkey-io/valkey/pull/4210) in **valkey-io/valkey**
 <!-- END_RECENT_PRS -->
 
 [Browse all merged pull requests](https://github.com/search?q=author%3Aquanyeyang+is%3Apr+is%3Amerged+-user%3Aquanyeyang&type=pullrequests)
